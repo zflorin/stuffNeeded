@@ -7,14 +7,17 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
-    "rxjs": "^6.5.5"
+    "rxjs": "^6.5.5",
+    "stylelint-config-recommended": "^3.0.0"
   },
   "devDependencies": {
-    "eslint-config-google": "^0.14.0",
-    "eslint-plugin-react": "^7.20.0"
+    "@interaktiv/prettier-config-dia": "^2.1.1",
+    "eslint-config-prettier": "^6.11.0",
+    "prettier": "^2.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
+    "format": "prettier --write \"src/**/*.+(js|ts|vue|json)\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
